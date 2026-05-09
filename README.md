@@ -1,4 +1,4 @@
-# 🧾 Namma Santhe Ledger – Android App
+## 🧾 Namma Santhe Ledger – Android App
 
 A simple and efficient Android application built for small vendors and shop owners to manage daily transactions digitally. The app focuses on clean design, fast performance, and easy record keeping.
 
@@ -6,35 +6,36 @@ A simple and efficient Android application built for small vendors and shop owne
 
 ## 🚀 Features
 
-• 📱 Clean and simple UI
-• 🔐 User login system
-• ➕ Add customer transactions
-• 📊 Transaction history tracking
-• ⏰ Weekly reminder notifications
-• 👤 Profile management
-• ⚙️ Settings management
+* 📱 **Clean and simple UI**: Focused on ease of use for small business owners.
+* 🔐 **User login system**: Secure access to your ledger data.
+* ➕ **Add customer transactions**: Easily record "Lend" and "Repay" actions.
+* 📊 **Transaction history tracking**: View all past records in a clear list.
+* ⏰ **Weekly reminder notifications**: Never forget to follow up on pending balances.
+* 👤 **Profile management**: Customize your shop name and details.
+* ⚙️ **Settings management**: Control app preferences.
 
 ---
 
 ## 🛠️ Tech Stack
 
-• Language: Kotlin
-• Architecture: MVVM
-• UI: XML Layouts
-• Background Tasks: WorkManager
-• Notifications: Broadcast Receiver
-• Storage: Shared Preferences and Local Storage
+* **Language**: Kotlin
+* **Architecture**: MVVM (Model-View-ViewModel)
+* **UI**: XML Layouts
+* **Background Tasks**: WorkManager
+* **Database**: Room Database (Local Storage)
+* **Notifications**: Broadcast Receiver
+* **Preferences**: Shared Preferences
 
 ---
 
 ## 📂 Project Structure
 
-com.example.nammasantheledger
+`com.example.nammasantheledger`
 
-ui/ → Activities and UI logic
-data/ → Models and storage handling
-adapter/ → List adapters
-utils/ → Helper classes
+* `ui/` → Activities and UI logic (MainActivity, ProfileActivity, etc.)
+* `data/` → Room Database entities, DAOs, and AppDatabase handling
+* `adapter/` → List adapters for displaying transactions
+* `utils/` → Helper classes and formatters
 
 ---
 
@@ -42,77 +43,67 @@ utils/ → Helper classes
 
 ### Clone the Repository
 
-git clone [https://github.com/malikarshid01430-byte/NammaSantheLedger.git](https://github.com/malikarshid01430-byte/NammaSantheLedger.git)
+```bash
+git clone https://github.com/rockstar77998856-byte/namma-santhe.git
+
+```
 
 ---
 
 ### Or Download ZIP
 
-1. Go to the repository on GitHub
-2. Click Code
-3. Click Download ZIP
-4. Locate the downloaded ZIP file
-5. Right click the file
-6. Select Extract Here or Extract to folder
-7. Open the extracted folder
+1. Go to the repository on [GitHub](https://github.com/rockstar77998856-byte/namma-santhe.git)
+2. Click **Code**
+3. Click **Download ZIP**
+4. Locate the downloaded ZIP file and **Extract** it.
+5. Open the extracted folder.
 
 ---
 
 ### Import into Android Studio
 
-1. Open Android Studio
-2. Click Open
-3. Select the extracted project folder
-4. Wait for Gradle sync to complete
-5. Click Run to launch the app
+1. Open **Android Studio**.
+2. Click **File > Open**.
+3. Select the `namma-santhe` project folder.
+4. Wait for **Gradle sync** to complete.
+5. Click **Run** (Green Play button) to launch the app on your device or emulator.
 
 ---
 
 ## 📦 Modules
 
-LoginActivity
-Handles user login
-
-MainActivity
-Main dashboard for managing transactions
-
-ProfileActivity
-Manages user profile details
-
-SettingsActivity
-Handles app settings
-
-ReminderReceiver
-Triggers reminder notifications
-
-WeeklyReminderWorker
-Schedules weekly reminders
+* **LoginActivity**: Handles secure user authentication.
+* **MainActivity**: The core dashboard for managing and adjusting transactions.
+* **ProfileActivity**: Allows users to update shop names and profile info.
+* **SettingsActivity**: Provides options for app configuration and logout.
+* **ReminderReceiver**: Triggers the system notifications for reminders.
+* **WeeklyReminderWorker**: Manages the scheduling of tasks via WorkManager.
 
 ---
 
 ## 🎯 Purpose
 
-This app helps small businesses replace manual notebooks with digital records. You can manage transactions faster and keep data organized.
+This app was designed to help small business owners move away from physical notebooks. By digitizing records, users can calculate balances instantly, reduce errors, and keep their financial data organized in one place.
 
 ---
 
 ## 🔮 Future Improvements
 
-• Firebase integration
-• Cloud backup
-• PDF report export
-• Search and filter options
-• Dark mode
-• Multi language support
+* **Firebase Integration**: Real-time data syncing.
+* **Cloud Backup**: Never lose your ledger data.
+* **PDF Report Export**: Generate monthly summaries for customers.
+* **Search and Filter**: Quickly find specific customers or dates.
+* **Dark Mode**: For better usability in low-light environments.
+* **Multi-language Support**: Making the app accessible in regional languages.
 
 ---
 
 ## 🤝 Contributing
 
-Fork the repository
-Create a new branch
-Make changes and commit
-Push and create a pull request
+1. **Fork** the repository.
+2. Create a **new branch** (`git checkout -b feature-improvement`).
+3. **Commit** your changes.
+4. **Push** to the branch and create a **Pull Request**.
 
 ---
 
@@ -124,10 +115,10 @@ MIT License
 
 ## 👨‍💻 Author
 
-Developed by Arshid Ahmad Malik
+Developed by **rockstar77998856-byte**
 
 ---
 
 ## ⭐ Support
 
-If you find this project useful, give it a star
+If you find this project useful, give it a star on [GitHub](https://github.com/rockstar77998856-byte/namma-santhe.git)!
